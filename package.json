@@ -1,0 +1,29 @@
+{
+  "name": "b-is-branch",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "b": "index.js"
+  },
+  "version": "1.0.0",
+  "description": "CLI tool for switching/deleting git branches",
+  "license": "UNLICENSED",
+  "keywords": [
+    "git",
+    "branch",
+    "cli"
+  ],
+  "homepage": "https://github.com/zcbenz/git-branch-manager",
+  "bugs": {
+    "url": "https://github.com/zcbenz/git-branch-manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcbenz/git-branch-manager.git"
+  },
+  "author": "Cheng",
+  "dependencies": {
+    "chalk": "5.6.0",
+    "@inquirer/prompts": "7.8.3"
+  }
+}
