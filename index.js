@@ -17,6 +17,7 @@ switch (command) {
   case 'delete':
     run(deleteBranches.bind(null, selectBranchesToDelete))
     break
+  case 'dm':
   case 'delete-merged':
     run(deleteBranches.bind(null, getMergedBranches))
     break
