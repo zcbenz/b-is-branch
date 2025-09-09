@@ -27,7 +27,7 @@ switch (command) {
     console.error('Usage: b <command>\n\n' +
                   '  s, switch: Switch branch\n' +
                   '  d, delete: Delete branches\n' +
-                  '  delete-merged: Delete merged branches')
+                  '  dm, delete-merged: Delete merged branches')
     break
   case undefined:
     run(printStatus)
