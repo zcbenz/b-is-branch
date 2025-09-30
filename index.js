@@ -231,7 +231,11 @@ function getSquashMergedBranches() {
 }
 
 function git(...args) {
-  return String(execFileSync('git', args)).trimRight()
+  try {
+    return String(execFileSync('git', args)).trimRight()
+  } catch {
+    process.exit(2)
+  }
 }
 
 function compareDate(a, b) {
